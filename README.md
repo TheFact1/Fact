@@ -70,18 +70,3 @@ We collect and aggregate news sites and the news themselves.
 **Stage II:** After collecting news-pages we make  Inference our AI NLP model for classification news to any of category : [Bitcoin, NFT, Mining, Altcoins] and keep results in Data-base.
 
 ![](app/readme_imgs/classification_of_news.png)
-
-
-
-## Start frontend
-```
-cd ./frontend/de-news
-npm i --force
-npm run dev
-```
-Main page:
-```
-http://localhost:3000
-```
-
-![](app/readme_imgs/front.png)
