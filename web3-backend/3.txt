@@ -1,0 +1,51 @@
+Диспут на новость #3
+
+Разоблачение:
+This is a fake!
+
+Оригинал (fake.com):
+More Than Half Of All Bitcoin Trades Are Fake
+
+A new Forbes analysis of 157 crypto exchanges finds that 51% of the daily bitcoin trading volume being reported is likely bogus.
+Within the emerging and turbulent market for cryptocurrencies, where there are no fewer than 10,000 tokens, bitcoin, is the great granddaddy, the blue-chip, representing 40% of the $1 trillion in crypto assets outstanding. Bitcoin is crypto’s gateway drug. An estimated 46 million adult Americans already own it according to New York Digital Investment Group, and an increasing number of institutional investors and corporations are warming to the nascent alternative asset.
+
+But can you trust what your crypto exchange or e-brokerage reports about trading in the most important digital currency?
+
+One of the most common criticisms of bitcoin is pervasive wash trading (a form of fake volume) and poor surveillance across exchanges. The U.S. Commodity Futures Trading Commission defines wash trading as “entering into, or purporting to enter into, transactions to give the appearance that purchases and sales have been made, without incurring market risk or changing the trader's market position.” The reason why some traders engage in wash trading is to inflate the trading volume of an asset to give the appearance of rising popularity. In some cases trading bots execute these wash trades in tokens, increasing volume, while at the same time insiders reinforce the activity with bullish remarks, driving up the price in what is effectively a pump and dump scheme. Wash trading also benefits exchanges because it allows them to appear to have more volume than they actually do, potentially encouraging more legitimate trading.
+
+There is no universally accepted method of calculating bitcoin daily volume, even among the industry’s most reputable research firms. For instance, as of this writing, CoinMarketCap puts the latest 24-hour trading of bitcoin at $32 billion, CoinGecko at $27 billion, Nomics at $57 billion and Messari at $5 billion.
+
+Adding to the challenges are persistent fears about the solvency of crypto exchanges, underscored by the public collapses of Voyager and Celsius. In an exclusive interview with Forbes in late June, FTX CEO Sam Bankman-Fried commented that there are many exchange bankruptcies yet to come.
+
+A significant repercussion of this lack of faith in its underlying markets is the Security and Exchange Commission’s refusal to approve a spot bitcoin ETF.
+
+Unfortunately for the bitcoin ETF hopefuls, many of these fears and criticisms are valid. As part of Forbes research into the crypto ecosystem using 2021 data, we ranked the 60 best exchanges in March. More recently we conducted a deeper-dive into the bitcoin trading markets to answer a few pressing questions:
+
+Where is bitcoin traded?
+How much bitcoin gets traded every day?
+How is bitcoin traded?
+Our study evaluated 157 crypto exchanges across the world. Here are our main findings:
+
+
+More than half of all reported trading volume is likely to be fake or non-economic. Forbes estimates the global daily bitcoin volume for the industry was $128 billion on June 14. That is 51% less than the $262 billion one would get by taking the sum of self-reported volume from multiple sources.
+Tether, the world’s largest stablecoin, continues to be a dominant player in the crypto trading economy, especially when it comes to trades against bitcoin. Its current market capitalization is $68 billion, despite questions about its reserves.
+In terms of how much bitcoin activity takes place at these firms, 21 crypto exchanges generate $1 billion or more in daily trading activity, while the next 33 exchanges had volume between $200 million and $999 million across all contract types, spot, futures and perpetuals. Perpetual futures, or perpetual swaps as they are also known, are futures contracts that don’t require investors to roll over their positions. Binance is the clear leader, with a 27% market share, followed by FTX. Looking only at spot bitcoin, the top position is shared by Binance, FTX, and OKX. Chicago-based CME Group is the market leader in bitcoin futures trading.
+The biggest problem areas regarding fake volume are firms that tout big volume but operate with little or no regulatory oversight that would make their figures more credible, notably Binance, MEXC Global and Bybit. Altogether, the lesser regulated exchanges in our study account for approximately $89 billion of the true volume (they claim $217 billion).
+The creation of new trading assets and products such as stablecoins and perpetual futures adds complications for national authorities seeking to regulate crypto markets. Major U.S. exchanges hardly utilize these instruments or contracts in any of their trading. However, offshore exchanges make significant use of them as ways to synthetically create U.S. dollar liquidity on their platforms (they cannot get U.S. bank accounts).
+In the Western world and particularly in the U.S., it is tempting to think of bitcoin only trading against either the U.S. dollar or the euro and British pound. But some of the largest trading pair activity occurs against fiat currencies like the Japanese yen and Korean won and against major stablecoins like Binance U.S. dollar and the USD coin.
+573 million people visit crypto exchange websites on a monthly basis.
+We hope that this report builds on top of the important work done by other digital asset researchers such as Bitwise, which estimated in a March 2019 white paper that 95% of CoinMarketCap’s bitcoin trading volume was fake and/or non-economic.
+
+
+Our Approach
+Forbes uses quantitative and qualitative analyses to adjust trading volume reported by the exchanges. Unlike other methods that carry out tests on transactional data (and can also be duped), Forbes grades a firm’s credibility by evaluating no fewer than five datasets that together inspire or diminish confidence in a firm’s self-reported data. Data comes from four crypto media firms, CoinMarketCap, CoinGecko, Nomics and Messari, as well as multiple exchanges and two other third-party data providers.
+
+We apply volume discounts based on a proprietary methodology that relies on 10 factors such as an exchange’s home regulator if any and volume metrics based on an exchange’s web traffic and estimated workforce size. We also use the number and quality of crypto licenses as proxy to gauge the sophistication of each crypto exchange in matters pertaining to regulation and trade surveillance. If a firm shows a commitment to transparency by conducting token proofs of reserve or by participating in Forbes crypto exchange surveys, it qualifies for a “transparency credit” that lowers any discount that may otherwise apply.
+
+Many of these factors were also present in Forbes’ crypto exchange ranking formula. We divided them into three categories:
+
+Group 1: 49 crypto exchanges that were assigned discounts of 0-25% generated $39 billion of real bitcoin trading activity across all markets–spot, derivatives and futures–on June 14.
+
+Group 2: 73 exchanges with volume discounts of 26% to 79% generated $81 billion in transactional activity (vs. $158 billion claimed)
+
+Group 3: The remaining 35 firms were penalized with a high discount rate (80-99%) and traded $7.7 billion out of $59 billion claimed.

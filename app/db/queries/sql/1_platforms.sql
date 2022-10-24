@@ -1,0 +1,56 @@
+-- TODO: add tier int not null
+-- TODO: add rating
+create table platforms (
+    id       serial       primary key    ,
+	name     varchar(255) unique not null,
+	site     varchar(255) unique not null,
+	twitter  varchar(255) unique         ,
+	linkedin varchar(255) unique
+);
+
+-- TODO: optimize links
+insert into platforms (name, site, twitter, linkedin)
+values
+	('Investing Com',       'https://www.investing.com/',                     'https://twitter.com/investingcom',    'https://www.linkedin.com/company/investing-com/'),
+	('CoinMarketCap News',  'https://coinmarketcap.com/headlines/news/',      'https://twitter.com/CoinMarketCap',   'https://www.linkedin.com/company/coinmarketcap/'),
+	('CNBC Crypto',         'https://www.cnbc.com/cryptoworld/',              'https://twitter.com/CNBC',            'https://www.linkedin.com/company/cnbc/'),
+	('RBC Crypto',          'https://www.rbc.ru/crypto/',                     'https://twitter.com/RBC',             'https://www.linkedin.com/company/rbc/'),
+	('Forbes Crypto',       'https://www.forbes.com/digital-assets/',         'https://twitter.com/ForbesCrypto',    'https://www.linkedin.com/company/forbes-magazine/'),
+	('Bloomberg Crypto',    'https://www.bloomberg.com/cryptocurrencies-v2',  'https://twitter.com/crypto',          'https://www.linkedin.com/company/bloomberg-lp/'),
+	('CoinGecko Leard',     'https://www.coingecko.com/learn',                'https://twitter.com/coingecko',       'https://www.linkedin.com/company/coingecko/'),
+	('Coindesk',            'https://www.coindesk.com/',                      'https://twitter.com/coindesk',        'https://www.linkedin.com/company/coindesk/'),
+	('VC Crypto Topics',    'https://vc.ru/',                                 'https://twitter.com/vcru',             null),
+	('CoinTelegraph',       'https://cointelegraph.com/',                     'https://twitter.com/cointelegraph',   'https://www.linkedin.com/company/cointelegraph/'),
+	('Trading View',        'https://ru.tradingview.com/news/',               'https://twitter.com/tradingview',     'https://www.linkedin.com/company/tradingview/'),
+	('Decrypt',             'https://decrypt.co/',                            'https://twitter.com/decryptmedia',    'https://www.linkedin.com/company/decrypt-media/'),
+	('FX Street',           'https://www.fxstreet.com/cryptocurrencies/news', 'https://twitter.com/FXStreetNews',    'https://www.linkedin.com/company/fxstreet/'),
+	('AMBCrypto',           'https://ambcrypto.com/',                         'https://twitter.com/CryptoAmb',       'https://www.linkedin.com/company/ambcrypto/'),
+	('BeInCrypto',          'https://beincrypto.com/',                        'https://twitter.com/beincrypto',      'https://www.linkedin.com/company/beincrypto/'),
+	('U Today',             'https://u.today/',                               'https://twitter.com/Utoday_en',       'https://www.linkedin.com/company/u-today/'),
+	('Bitcoin Com',         'https://news.bitcoin.com/',                      'https://twitter.com/BTCTN',           'https://www.linkedin.com/company/bitcoin-com-news/'),
+	('CoinGape',            'https://coingape.com/',                          'https://twitter.com/CoinGapeMedia',   'https://www.linkedin.com/company/coingape/'),
+	('The Daily Hold',      'https://dailyhodl.com/',                         'https://twitter.com/TheDailyHodl',    'https://www.linkedin.com/company/the-daily-hodl/about/'),
+	('Bitcoinist',          'https://bitcoinist.com/',                        'https://twitter.com/bitcoinist',      'https://www.linkedin.com/company/bitcoinist-net/about/'),
+	('CryptoPotato',        'https://cryptopotato.com/',                      'https://twitter.com/Crypto_Potato',   'https://www.linkedin.com/company/cryptopotato/'),
+	('Coin Codex',          'https://coincodex.com/news/',                    'https://twitter.com/CoinCodex',       'https://www.linkedin.com/company/coincodex/'),
+	('CoinPedia',           'https://coinpedia.org/',                         'https://twitter.com/Coinpedianews',   'https://www.linkedin.com/company/coinpedia/'),
+	('Blockworks',          'https://blockworks.co/',                         'https://twitter.com/Blockworks_',     'https://www.linkedin.com/company/the-blockworks-group/'),
+	('Crypto Daily',        'https://cryptodaily.co.uk/',                     'https://twitter.com/cryptodailyuk',   'https://www.linkedin.com/company/cryptodaily/'),
+	('The Block',           'https://www.theblock.co/',                       'https://twitter.com/TheBlock__',      'https://www.linkedin.com/company/theblockcrypto/'),
+	('Zy Crypto',           'https://zycrypto.com/',                          'https://twitter.com/zycrypto',        'https://www.linkedin.com/company/zycrypto/'),
+	('Crypto Briefing',     'https://cryptobriefing.com/',                    'https://twitter.com/crypto_briefing', 'https://www.linkedin.com/company/cryptobriefing/'),
+	('The Defiant',         'https://thedefiant.io/',                         'https://twitter.com/DefiantNews',     'https://www.linkedin.com/company/defiantmedia/'),
+	('CryptoNews',          'https://cryptonews.net/',                        'https://twitter.com/cryptonews_eng',  'https://www.linkedin.com/company/cryptonews-net/'),
+	('Crypto News',         'https://crypto.news/',                           'https://twitter.com/cryptod0tnews',   'https://www.linkedin.com/company/cryptodotnews/'),
+	('Bits Media',          'https://bits.media/',                            'https://twitter.com/bits_media',      'https://www.linkedin.com/company/bitsmedia/'),
+	('Incrypted',           'https://incrypted.com/',                         'https://twitter.com/incrypted',        null),
+	('Cryptonomist',        'https://cryptonomist.ch/',                       'https://twitter.com/cryptonomist_',   'https://www.linkedin.com/company/the-cryptonomist/'),
+	('Blockchain Magazine', 'https://blockchainmagazine.net/',                'https://twitter.com/blockchainews/',  'https://www.linkedin.com/company/blockchain-magazine/'),
+	('The Crypto Times',    'https://www.cryptotimes.io/',                    'https://twitter.com/CryptoTimes_io',  'https://www.linkedin.com/showcase/-the-crypto-times/'),
+	('CoinSpeaker',         'https://www.coinspeaker.com/',                   'https://twitter.com/coinspeaker/',    'https://www.linkedin.com/company/coinspeaker/'),
+	('iHodl',               'https://ihodl.com/',                             'https://twitter.com/iHodl_com_en',    'https://www.linkedin.com/company/insiderpro/about/'),
+	('Blocknomi',           'https://blockonomi.com/',                        'https://twitter.com/blockonomi',      'https://www.linkedin.com/company/blockonomi/'),
+	('Forklog',             'https://forklog.news/',                          'https://twitter.com/ForkLog',         'https://www.linkedin.com/company/forklogcom/'),
+	('Boxmining',           'https://boxmining.com/',                         'https://twitter.com/BoxminingNews',   'https://www.linkedin.com/company/boxmining/'),
+	('Bankless',            'https://bankless.community/',                    'https://twitter.com/BanklessHQ',      'https://www.linkedin.com/company/banklesshq/'),
+	('Moni Talks',          'https://monitalks.xyz/en',                       'https://twitter.com/moni_talks_xyz',   null);
